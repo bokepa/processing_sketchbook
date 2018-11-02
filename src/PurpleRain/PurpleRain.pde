@@ -11,7 +11,7 @@ Drop [] drops= new Drop[500];
 void setup() {
     size (300, 300);
     
-    bg = loadImage("f1b.png");
+    bg = loadImage("background.jpg");
     bg.resize(width,height);
     for (int i = 0; i< drops.length;i++) {
       drops[i] = new Drop();
